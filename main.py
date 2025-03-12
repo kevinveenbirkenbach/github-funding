@@ -96,11 +96,11 @@ def update_readme(repo_path, badge_entries):
                 header_found = True
         # If no header is found, prepend a default header and the badges.
         if not header_found:
-            new_content.insert(0, f"# Repository\n{badges_str}\n")
+            new_content.insert(0, f"# Repository\n{badges_str}")
     else:
         # Create a new README.md with default title and badges.
         repo_name = os.path.basename(os.path.abspath(repo_path))
-        new_content = [f"# {repo_name}\n\n", badges_str]
+        new_content = [f"# {repo_name}\n", badges_str]
 
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write("".join(new_content))
