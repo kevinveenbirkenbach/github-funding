@@ -1,5 +1,10 @@
 # GitHub Funding 💰✨
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![GitHub issues](https://img.shields.io/github/issues/kevinveenbirkenbach/github-funding)](https://github.com/kevinveenbirkenbach/github-funding/issues)
+
 A Python script that automates GitHub Sponsoring setup by creating a `.github` folder and deploying a `FUNDING.yml` file into every first-level subdirectory of a target directory. This enables GitHub Sponsoring for each repository in that folder. 🚀📁
 
 ## Installation 🔧
