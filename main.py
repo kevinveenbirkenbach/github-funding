@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import shutil
 import argparse
@@ -20,7 +21,7 @@ def main():
 
     # Wenn kein FUNDING.yml-Pfad angegeben wurde, verwende den aus dem Skriptverzeichnis
     if args.funding_file is None:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
+        script_dir = os.path.dirname(os.path.realpath(__file__))
         args.funding_file = os.path.join(script_dir, "FUNDING.yml")
 
     # Überprüfen, ob das FUNDING.yml File existiert
