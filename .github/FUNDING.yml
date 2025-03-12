@@ -2,8 +2,6 @@ github: kevinveenbirkenbach
 
 patreon: kevinveenbirkenbach
 
-buymeacoffee: kevinveenbirkenbach
+buy_me_a_coffee: kevinveenbirkenbach
 
-custom:
-  - service: PayPal
-    url: "https://s.veen.world/paypaldonate"
+custom: https://s.veen.world/paypaldonate
